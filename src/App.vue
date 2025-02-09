@@ -1,15 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <PomoTimer />
+  <PomoPazzle />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PomoPazzle from './components/PomoPazzle.vue';
+import PomoTimer from './components/PomoTimer.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    PomoTimer,
+    PomoPazzle
   }
 }
 </script>
